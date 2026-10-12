@@ -1,0 +1,98 @@
+LOCUS       OsKSL4                  2529 bp    DNA     linear   UNK 02-OCT-2026
+DEFINITION  OsKSL4 CDS (Oryza sativa Japonica, IRGSP-1.0/MSU7) con sitios diana
+            CRISPR-Cas9.
+ACCESSION   LOC_Os04g10060
+VERSION     LOC_Os04g10060
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group
+  ORGANISM  Oryza sativa Japonica Group
+            .
+COMMENT     Referencia: Os04g0179700 / LOC_Os04g10060; GenBank AB126934 /
+            AY616862. Coordenadas en CDS. Verificar en el locus genomico que
+            cada protospacer caiga dentro de un unico exon.
+FEATURES             Location/Qualifiers
+     CDS             1..2529
+                     /gene="OsKSL4"
+                     /product="syn-pimara-7,15-diene synthase (OsDTS2)"
+                     /codon_start=1
+                     /transl_table=1
+                     /label="OsKSL4 CDS"
+     misc_feature    1771..1785
+                     /label="motivo catalitico DDxxD (DDFFD)"
+                     /note="sitio activo; una indel aqui inactiva la enzima
+                     aunque sea en marco"
+     misc_binding    complement(101..120)
+                     /label="KSL4-sg1 protospacer"
+                     /note="GCGACAATCTAGCACGAATG (20 nt), PAM GGG, hebra -"
+     misc_feature    complement(98..100)
+                     /label="KSL4-sg1 PAM"
+                     /note="GGG"
+     misc_feature    complement(103)
+                     /label="KSL4-sg1 corte Cas9"
+                     /note="corte romo tras nt 103 del CDS (codon 35)"
+     misc_binding    191..210
+                     /label="KSL4-sg2 protospacer"
+                     /note="GCCGGCAGCTTCCTTCCACG (20 nt), PAM GGG, hebra +"
+     misc_feature    211..213
+                     /label="KSL4-sg2 PAM"
+                     /note="GGG"
+     misc_feature    207
+                     /label="KSL4-sg2 corte Cas9"
+                     /note="corte romo tras nt 207 del CDS (codon 69)"
+     misc_binding    complement(1772..1791)
+                     /label="KSL4-sg3 protospacer"
+                     /note="TCCGACATCGAAAAAGTCAT (20 nt), PAM CGG, hebra -"
+     misc_feature    complement(1769..1771)
+                     /label="KSL4-sg3 PAM"
+                     /note="CGG"
+     misc_feature    complement(1774)
+                     /label="KSL4-sg3 corte Cas9"
+                     /note="corte romo tras nt 1774 del CDS (codon 592)"
+     misc_feature    104..1774
+                     /label="delecion maxima esperada"
+                     /note="1671 pb entre sg1 y sg3"
+ORIGIN
+        1 atggcgagtc ctatggaagc tgtagcccgt tccagcctcg tgctcgcacc tcgccggcgg
+       61 cgagccctcg gcctcctccc ggcggcggcg gcggccgccc cattcgtgct agattgtcgc
+      121 cggcggcata acggaggaat gcgtcgtcct catgtcagct tcgcctgctc ggccgagctc
+      181 gacaccggtc gccggcagct tccttccacg gggactcgag cggtgatgtc gtcctgtccc
+      241 ggatatgttg aggggaggat ggtaggagaa aatacaagtc agataaacat gggatgggag
+      301 gctagaatac ttaggcactt ggagaacccg gagttcttac catcttcata tgacatagca
+      361 tgggtggcta tggtgccatt gccgggcact gatcatcttc aagctccatg cttccctgaa
+      421 tgtgtggaat ggatactaca aaaccaacac agtaatgggt cgtggggtgt caatgaattt
+      481 gactcatcag ccagcaagga tattctccta tccactttgg catgtattat tgcacttgag
+      541 aaatggaatg tcggttcgga gcaaataagg agaggattac attttatcgc aaagaatttc
+      601 tccattgtta ttgatgacca gattgctgca cctataggct tcaacctcac attccctgct
+      661 atggttaacc ttgccattaa gatgggtttg gaatttcctg ccagtgaaat tagtattgat
+      721 cagattcttc acctccgtga tatggaattg aaaagactgg ctggtgacga atctttgggg
+      781 aaagaggcat atttcgccta tattgctgaa ggtctagaag aaagcatggt ggattggagt
+      841 gaagttatga agttccaggg gaagaatgga tcattgttca actccccggc tgcaactgct
+      901 gctgcattag tccacagata cgatgataaa gccctgggat acctatattc tgttgtcaat
+      961 aaatttggag gtgaagtacc aaccgtgtat ccgctaaata tattttctca gctttcaatg
+     1021 gtggatactc tcgtcaatat tggaatatct cggcactttt ctagtgatat aaagcgcatt
+     1081 ttggataaga catacatttt atggtcacag agagatgagg aagtaatgct ggatttacca
+     1141 acatgcgcaa tggcatttcg ccttttgcgt atgaacggat atggtgtttc ctcagatgac
+     1201 ttgtcccatg ttgctgaagc ctcaactttc cataactcag ttgaaggata cttagatgat
+     1261 acaaaatcct tattagaatt gtacaaagct tcaaaagtca gtttatcaga aaatgagcca
+     1321 atcctagaga aaatgggttg ctggtcaggt agcttattga aagaaaaatt gtgctccgat
+     1381 gacatccgag gaacaccaat ccttcgagag gtagaatatg ctctcaaatt tccattttat
+     1441 gccacgctgg aacctctaga ccacaagtgg aacattgaaa attttgatgc cagggcttat
+     1501 cagaagataa agaccaaaaa catgccgtgc catgtcaatg aagatctctt ggctttggct
+     1561 gctgaagatt tcagcttttg tcagtcaact taccaaaatg aaatccagca ccttgaaagt
+     1621 tgggagaaag aaaataagct ggaccagctc gaatttacgc ggaagaatct aataaacagc
+     1681 tatctctctg ctgctgccac cataagccct tatgaattgt ctgatgctcg cattgcgtgt
+     1741 gcaaaatcta ttgcgctcac acttgttgcc gatgactttt tcgatgtcgg aagttccaaa
+     1801 gaagaacaag aaaatctcat atccttagtc gagaagtggg atcagtatca caaagttgag
+     1861 ttctactctg agaatgtaaa agcagtattt ttcgctctat attctacggt taaccagctt
+     1921 ggagcaatgg cttccgcagt acagaaccgc gacgttacaa aatacaatgt tgaatcgtgg
+     1981 ttggattatt tgaggtcttt agcgacagat gcagaatggc aacggagcaa atatgtgcca
+     2041 acaatggagg aatacatgaa aaattcaatt gtgacattcg cattgggacc aactatactc
+     2101 atagcactgt atttcatggg acaaaatctc tgggaggaca tcgtgaaaaa tgcagagtat
+     2161 gatgagttgt ttagactaat gaacacatgt ggtcgtctcc agaatgatat tcaaagcttt
+     2221 gagagggaat gcaaggatgg caaactgaac agtgtgtcac tgcttgttct tgacagcaaa
+     2281 gatgtcatgt cagtagaaga ggctaaagag gcgataaacg agtctatatc atcatgtaga
+     2341 agagagttgc tacggttggt tgttagagaa gacggtgtca ttcctaaatc atgcaaggag
+     2401 atgttctgga atctttacaa gacaagccat gtgttctact ctcaggccga tggattttcc
+     2461 tcgccgaagg aaatgatggg tgctatgaat ggagtaatct ttgagccact gaaaactaga
+     2521 ggcaactag
+//

@@ -1,0 +1,96 @@
+LOCUS       sgRNA_array_cps4        1375 bp    DNA     linear   UNK 02-OCT-2026
+DEFINITION  Arreglo de 3 casetes sgRNA para CPS4 (inserto Golden Gate BsaI en
+            pYLCRISPR/Cas9Pubi-H).
+ACCESSION   array_cps4
+VERSION     array_cps4
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            .
+COMMENT     DISENO. Las regiones N son marcadores de posicion de secuencias que
+            se toman del vector parental (Addgene 66187 / GenBank KR029109) y de
+            los plasmidos pYLsgRNA; todo lo demas es secuencia definitiva. En
+            Benchling: importar el vector, digerir con BsaI y ensamblar este
+            inserto.
+FEATURES             Location/Qualifiers
+     misc_feature    1..4
+                     /label="saliente 5' del vector"
+                     /note="4 nt generados por BsaI en pYLCRISPR/Cas9Pubi-H
+                     (KR029109): leer del vector e insertar aqui"
+     promoter        5..354
+                     /label="promotor OsU6a (marcador de posicion)"
+                     /note="~350 pb; copiar la secuencia real de pYLsgRNA-OsU6a,
+                     Addgene 66194. Pol III, inicia en G"
+     misc_RNA        355..374
+                     /label="CPS4-sg1 espaciador"
+                     /note="20 nt; coincide con el genoma"
+     misc_RNA        375..450
+                     /label="andamio sgRNA (SpCas9)"
+                     /note="76 nt, andamio canonico"
+     terminator      451..457
+                     /label="terminador Pol III CPS4-sg1"
+                     /note="TTTTTTT"
+     misc_feature    458..461
+                     /label="saliente BsaI AGGA"
+                     /note="cicatriz de 4 nt entre casetes; verificada ortogonal
+                     (>=2 desapareamientos frente a las demas y a sus
+                     complementos reversos)"
+     promoter        462..811
+                     /label="promotor OsU6b (marcador de posicion)"
+                     /note="~350 pb; copiar la secuencia real de pYLsgRNA-OsU6b,
+                     Addgene 66196. Pol III, inicia en G"
+     misc_RNA        812..831
+                     /label="CPS4-sg2 espaciador"
+                     /note="20 nt; coincide con el genoma"
+     misc_RNA        832..907
+                     /label="andamio sgRNA (SpCas9)"
+                     /note="76 nt, andamio canonico"
+     terminator      908..914
+                     /label="terminador Pol III CPS4-sg2"
+                     /note="TTTTTTT"
+     misc_feature    915..918
+                     /label="saliente BsaI CTAC"
+                     /note="cicatriz de 4 nt entre casetes; verificada ortogonal
+                     (>=2 desapareamientos frente a las demas y a sus
+                     complementos reversos)"
+     promoter        919..1268
+                     /label="promotor OsU6c (marcador de posicion)"
+                     /note="~350 pb; copiar la secuencia real de pYLsgRNA-OsU6c,
+                     sistema pYL (Ma et al. 2015). Pol III, inicia en G"
+     misc_RNA        1269..1288
+                     /label="CPS4-sg3 espaciador"
+                     /note="20 nt; coincide con el genoma"
+     misc_RNA        1289..1364
+                     /label="andamio sgRNA (SpCas9)"
+                     /note="76 nt, andamio canonico"
+     terminator      1365..1371
+                     /label="terminador Pol III CPS4-sg3"
+                     /note="TTTTTTT"
+     misc_feature    1372..1375
+                     /label="saliente 3' del vector"
+                     /note="segunda saliente BsaI del vector"
+ORIGIN
+        1 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+       61 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      121 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      181 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      241 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      301 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnngcactg
+      361 agatcaatcg gagagtttta gagctagaaa tagcaagtta aaataaggct agtccgttat
+      421 caacttgaaa aagtggcacc gagtcggtgc tttttttagg annnnnnnnn nnnnnnnnnn
+      481 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      541 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      601 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      661 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      721 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      781 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn ngatcgttca gaatcagcta cgttttagag
+      841 ctagaaatag caagttaaaa taaggctagt ccgttatcaa cttgaaaaag tggcaccgag
+      901 tcggtgcttt ttttctacnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      961 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1021 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1081 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1141 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1201 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1261 nnnnnnnngg taaaggatat cgatgacagt tttagagcta gaaatagcaa gttaaaataa
+     1321 ggctagtccg ttatcaactt gaaaaagtgg caccgagtcg gtgctttttt tnnnn
+//

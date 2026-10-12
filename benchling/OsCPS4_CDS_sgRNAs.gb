@@ -1,0 +1,94 @@
+LOCUS       OsCPS4                  2304 bp    DNA     linear   UNK 02-OCT-2026
+DEFINITION  OsCPS4 CDS (Oryza sativa Japonica, IRGSP-1.0/MSU7) con sitios diana
+            CRISPR-Cas9.
+ACCESSION   LOC_Os04g09900
+VERSION     LOC_Os04g09900
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group
+  ORGANISM  Oryza sativa Japonica Group
+            .
+COMMENT     Referencia: Os04g0178300 / LOC_Os04g09900; GenBank AB066270 /
+            AK100631. Coordenadas en CDS. Verificar en el locus genomico que
+            cada protospacer caiga dentro de un unico exon.
+FEATURES             Location/Qualifiers
+     CDS             1..2304
+                     /gene="OsCPS4"
+                     /product="syn-copalyl diphosphate synthase (OsCyc1)"
+                     /codon_start=1
+                     /transl_table=1
+                     /label="OsCPS4 CDS"
+     misc_feature    1093..1104
+                     /label="motivo catalitico DxDD (DIDD)"
+                     /note="sitio activo; una indel aqui inactiva la enzima
+                     aunque sea en marco"
+     misc_binding    268..287
+                     /label="CPS4-sg1 protospacer"
+                     /note="GCACTGAGATCAATCGGAGA (20 nt), PAM GGG, hebra +"
+     misc_feature    288..290
+                     /label="CPS4-sg1 PAM"
+                     /note="GGG"
+     misc_feature    284
+                     /label="CPS4-sg1 corte Cas9"
+                     /note="corte romo tras nt 284 del CDS (codon 95)"
+     misc_binding    387..406
+                     /label="CPS4-sg2 protospacer"
+                     /note="GATCGTTCAGAATCAGCTAC (20 nt), PAM CGG, hebra +"
+     misc_feature    407..409
+                     /label="CPS4-sg2 PAM"
+                     /note="CGG"
+     misc_feature    403
+                     /label="CPS4-sg2 corte Cas9"
+                     /note="corte romo tras nt 403 del CDS (codon 135)"
+     misc_binding    1086..1105
+                     /label="CPS4-sg3 protospacer"
+                     /note="GGTAAAGGATATCGATGACA (20 nt), PAM CGG, hebra +"
+     misc_feature    1106..1108
+                     /label="CPS4-sg3 PAM"
+                     /note="CGG"
+     misc_feature    1102
+                     /label="CPS4-sg3 corte Cas9"
+                     /note="corte romo tras nt 1102 del CDS (codon 368)"
+     misc_feature    285..1102
+                     /label="delecion maxima esperada"
+                     /note="818 pb entre sg1 y sg3"
+ORIGIN
+        1 atgccggtct tcactgcatc attccagtgt gtcaccttgt ttgggcagcc agcatcggcg
+       61 gccgacgccc agccattgct gcaagggcaa cggccgttcc tacaccttca cgctcgccgc
+      121 cgtcgaccat gcgggcccat gctaataagc aaatcaccgc cgtacccggc ctcggaagaa
+      181 acacgcgaat gggaagcaga tggacaacat gaacacacgg atgaactaag agagacgacg
+      241 acaaccatga tcgatggcat caggacagca ctgagatcaa tcggagaggg agagattagc
+      301 atctcagcct atgacacttc gttggttgcc cttctgaaga ggctagatgg gggtgatggt
+      361 cctcagttcc catcaaccat cgactggatc gttcagaatc agctaccgga tggttcatgg
+      421 ggtgatgcct ccttcttcat gatgggagac cggatcatga gcaccctcgc ttgtgttgta
+      481 gcgttgaagt catggaacat ccacaccgat aaatgcgaga gaggtttgtt gtttatccaa
+      541 gaaaatatgt ggaggttggc ccatgaggaa gaagactgga tgctagttgg atttgagatt
+      601 gccttgccct cgctcctaga catggctaag gacctggatc ttgacatccc ttacgatgag
+      661 ccagccttga aagcaatata tgccgagaga gaaaggaagc ttgccaagat tccaagagac
+      721 gtgctacact ctatgccaac aactttactt catagccttg agggaatggt tgacttggac
+      781 tgggaaaagc tcctcaagct ccggtgtctc gatgggtcct tccattgctc ccctgcttcg
+      841 acggctactg ctttccagca aacaggagac cagaaatgct ttgaatacct cgatggaatc
+      901 gtcaaaaagt tcaatggagg agttccctgt atctaccctt tggatgtgta cgaacgctta
+      961 tgggccgtcg ataggctgac gaggctgggc atatcaaggc acttcacaag tgaaattgag
+     1021 gattgcttag actacatttt caggaactgg actccagatg gattagctca cacaaagaac
+     1081 tgcccggtaa aggatatcga tgacacggcc atgggtttcc gtctcctccg actttacgga
+     1141 taccaagtcg acccatgtgt gttgaagaag ttcgaaaagg atggcaagtt cttctgcttg
+     1201 cacggggagt ccaacccatc ctctgtcacc ccaatgtaca acacttaccg ggcctcccag
+     1261 ctcaaatttc ctggcgatga cggtgtcctt gggcgagctg aggtgttttg ccgctcattc
+     1321 ctccaagaca ggagaggctc aaacagaatg aaggacaagt gggccatcgc caaggatatc
+     1381 ccaggcgagg ttgagtatgc tatggactac ccatggaaag caagtttacc gcgtattgaa
+     1441 acaaggttgt acttggatca atatggaggt agtggcgatg tatggattgg gaaggtcctg
+     1501 cacaggatga ctcttttctg caacgacctg tacctcaagg cagctaaagc tgacttcagt
+     1561 aatttccaga aagaatgccg agttgagttg aatggcctta gaaggtggta cttgaggagt
+     1621 aatctggaga agtttggagg gactgatcca cagactacac tgatgacatc ctacttctta
+     1681 gcttcagcca acatcttcga ggcaaaccga gcagcggaac gtcttggatg ggctcgcgta
+     1741 gcgttgcttg ccgatgccgt ctcctctcac ttcaggagaa tcgggggacc aaaaaattcg
+     1801 accagcaatc ttgaagagct tatcagcctt gttccttttg acgacgctta ttctggcagt
+     1861 cttcgtgaag cttggaagca gtggttgatg gcatggactg caaaggagag cagccaggag
+     1921 tcaattgaag gggacacggc aatattgttg gttcgtgcca tcgagatttt tggaggacgg
+     1981 catgttttga ccgggcaaag accggacctt tgggagtatt cccagctcga gcagctcacc
+     2041 tcctccatct gctgcaaact ttccaggagg gttcttgccc aggagaatgg ggaaagtacg
+     2101 gagaaagttg aggagataga ccagcaagtg gatttggaga tgcaggaatt gactcggcgc
+     2161 gttctacagg gctgcagcgc tattaacaga ctaacccggg agacgtttct ccatgtggtg
+     2221 aagagcttct gctatgtcgc ctactgctca cctgagacaa ttgatagcca catcgacaag
+     2281 gtcatattcc aagatgtgat ttag
+//
