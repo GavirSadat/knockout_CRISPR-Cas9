@@ -1,7 +1,7 @@
 
 # Knockout CRISPR-Cas9 de la ruta de momilactonas en *Oryza sativa*
 **Taller 3 — Edición Genética | Maestría en Biociencias, Universidad EAFIT**  
-**Autor:** Gavir Sadat Carmona López
+**Autores:** Gavir Sadat Carmona López, Juan Diego Rojas Saldarriaga, Yair Antonio Vega
 
 ## 📌 Resumen del Proyecto
 Diseño *in silico* reproducible y verificable de una estrategia CRISPR-Cas9 para generar alelos nulos en los dos primeros pasos de la biosíntesis de momilactonas en arroz cultivar japónica: **OsCPS4** (LOC_Os04g09900) y **OsKSL4** (LOC_Os04g10060). 
