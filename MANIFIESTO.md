@@ -1,5 +1,5 @@
 # Taller 3 — Knockout CRISPR-Cas9 de momilactonas en *Oryza sativa*
-## Manifiesto del paquete · versión final · 7 de octubre de 2026
+## Manifiesto del paquete 
 
 Diseño dirigido a *OsKSL4* (LOC_Os04g10060) y *OsCPS4* (LOC_Os04g09900), tres sgRNA
 por gen, entregados en dos binarios independientes construidos sobre
